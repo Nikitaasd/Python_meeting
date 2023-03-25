@@ -13,4 +13,4 @@ def sum(a, b):
 
 
 
-print(sum(0, 9))
+print(f'sum(0, 9) -> {sum(0, 9)}')

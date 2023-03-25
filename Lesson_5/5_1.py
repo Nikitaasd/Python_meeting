@@ -5,10 +5,10 @@
 # <function_name>(2,3) -> 8
 # <function_name>(2,4) -> 16
 def exponentiation(a, b):
-    if b == 0:
+    if b == 0 or a == 0:
         return 1
     if b == 1:
         return a
     return a*exponentiation(a,b-1)
 
-print(exponentiation(3, 5))
+print(f'exponentiation(2, 9) -> {exponentiation(2, 9)}')

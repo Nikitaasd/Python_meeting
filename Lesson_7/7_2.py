@@ -13,9 +13,9 @@ def function_name(str_):
             if letter in wolwes:
                 count+=1
         counter_set.add(count)
-    if len(counter_set)>1:
-        return False
-    else:
-        return True
+        if len(counter_set)>1:
+            return False
+        else:
+            return True
 
 print(function_name('Пам-парам-пурум Пум-пурум-карам'))
